@@ -40,9 +40,9 @@
             this.label1.Location = new System.Drawing.Point(398, 12);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(188, 18);
+            this.label1.Size = new System.Drawing.Size(451, 18);
             this.label1.TabIndex = 0;
-            this.label1.Text = "INGRESE UN NUMERO";
+            this.label1.Text = "IDENTIFICAR SI UN NUMERO ENTERO ES PAR O IMPAR";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -51,39 +51,42 @@
             this.label2.Location = new System.Drawing.Point(100, 107);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 18);
+            this.label2.Size = new System.Drawing.Size(188, 18);
             this.label2.TabIndex = 1;
-            this.label2.Text = "NUMERO";
+            this.label2.Text = "INGRESE UN NUMERO";
             // 
             // txt_numero1
             // 
-            this.txt_numero1.Location = new System.Drawing.Point(232, 97);
+            this.txt_numero1.Location = new System.Drawing.Point(298, 104);
             this.txt_numero1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txt_numero1.Name = "txt_numero1";
             this.txt_numero1.Size = new System.Drawing.Size(164, 26);
             this.txt_numero1.TabIndex = 2;
+            this.txt_numero1.TextChanged += new System.EventHandler(this.txt_numero1_TextChanged);
             // 
             // Btn_aceptar
             // 
+            this.Btn_aceptar.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.Btn_aceptar.Location = new System.Drawing.Point(401, 188);
             this.Btn_aceptar.Name = "Btn_aceptar";
             this.Btn_aceptar.Size = new System.Drawing.Size(109, 30);
             this.Btn_aceptar.TabIndex = 3;
             this.Btn_aceptar.Text = "Aceptar";
-            this.Btn_aceptar.UseVisualStyleBackColor = true;
+            this.Btn_aceptar.UseVisualStyleBackColor = false;
             this.Btn_aceptar.Click += new System.EventHandler(this.Btn_aceptar_Click);
             // 
             // Ejercicio1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1012, 456);
             this.Controls.Add(this.Btn_aceptar);
             this.Controls.Add(this.txt_numero1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "Ejercicio1";
             this.Text = "Ejercicio1";

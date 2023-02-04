@@ -26,6 +26,7 @@ namespace Tarea1_Lenguaje3
         {
             decimal numero = Convert.ToDecimal(txt_numero1.Text);
             numeropar(numero);
+            negativo_y_positivo(numero);
 
         }
         
@@ -45,6 +46,26 @@ namespace Tarea1_Lenguaje3
             }
             return resultado;
 
+        }
+        private decimal negativo_y_positivo (decimal numero)
+        {
+            decimal resultado2;
+            resultado2 = Convert.ToDecimal(txt_numero1.Text);
+            if (numero < 0)
+            {
+
+                MessageBox.Show("El numero es negativo");
+            }
+            else
+            {
+                MessageBox.Show("El numero es Positivo");
+            }
+            return resultado2;
+        }
+
+        private void txt_numero1_TextChanged(object sender, EventArgs e)
+        {
+          
         }
     }
     
