@@ -10,6 +10,10 @@ using System.Windows.Forms;
 
 namespace Tarea1_Lenguaje3
 {
+
+    //FATIMA YANNEL HERNANDEZ VALERIANO
+    //CUENTA: 20181030392
+    // SECCION: 2000
     public partial class Ejercicio1 : Form
     {
         public Ejercicio1()
